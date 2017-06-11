@@ -15,10 +15,10 @@ while True:
 
 
     cv2.imshow('edges', edges)
-    #cv2.imshow('laplacian', laplacian)
-    #cv2.imshow('frame', frame)
-    #cv2.imshow('soblex', sobelx)
-    #cv2.imshow('sobely', sobely)
+    cv2.imshow('laplacian', laplacian)
+    cv2.imshow('frame', frame)
+    cv2.imshow('soblex', sobelx)
+    cv2.imshow('sobely', sobely)
 
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
