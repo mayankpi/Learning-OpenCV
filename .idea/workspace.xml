@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="446d81d2-4080-475c-a784-0a20de00db83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opencv-template-for-matching.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opencv-template-matching-python-tutorial.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video11.py" />
+    <list default="true" id="446d81d2-4080-475c-a784-0a20de00db83" name="Default" comment="Video 11 complete- Template Matching">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opencv-python-foreground-extraction-tutorial.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/video12.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video10.py" afterPath="$PROJECT_DIR$/video10.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Learning_OpenCV$video12.coverage" NAME="video12 Coverage Results" MODIFIED="1497165059280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learning_OpenCV$video4.coverage" NAME="video4 Coverage Results" MODIFIED="1496994279834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learning_OpenCV$video6.coverage" NAME="video6 Coverage Results" MODIFIED="1497006953943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learning_OpenCV$video5.coverage" NAME="video5 Coverage Results" MODIFIED="1497004690905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -111,11 +110,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video11.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video11.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video12.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video12.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -146,6 +157,7 @@
         <option value="$PROJECT_DIR$/video9.py" />
         <option value="$PROJECT_DIR$/video10.py" />
         <option value="$PROJECT_DIR$/video11.py" />
+        <option value="$PROJECT_DIR$/video12.py" />
       </list>
     </option>
   </component>
@@ -210,26 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.video11">
-    <configuration default="false" name="video6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Learning-OpenCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.video12">
     <configuration default="false" name="video7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,6 +294,25 @@
       <module name="Learning-OpenCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="video12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Learning-OpenCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,19 +468,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.video6" />
-      <item index="1" class="java.lang.String" itemvalue="Python.video7" />
-      <item index="2" class="java.lang.String" itemvalue="Python.video9" />
-      <item index="3" class="java.lang.String" itemvalue="Python.video10" />
-      <item index="4" class="java.lang.String" itemvalue="Python.video11" />
+      <item index="0" class="java.lang.String" itemvalue="Python.video7" />
+      <item index="1" class="java.lang.String" itemvalue="Python.video9" />
+      <item index="2" class="java.lang.String" itemvalue="Python.video10" />
+      <item index="3" class="java.lang.String" itemvalue="Python.video11" />
+      <item index="4" class="java.lang.String" itemvalue="Python.video12" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.video11" />
-        <item index="1" class="java.lang.String" itemvalue="Python.video10" />
-        <item index="2" class="java.lang.String" itemvalue="Python.video9" />
-        <item index="3" class="java.lang.String" itemvalue="Python.video7" />
-        <item index="4" class="java.lang.String" itemvalue="Python.video6" />
+        <item index="0" class="java.lang.String" itemvalue="Python.video12" />
+        <item index="1" class="java.lang.String" itemvalue="Python.video11" />
+        <item index="2" class="java.lang.String" itemvalue="Python.video10" />
+        <item index="3" class="java.lang.String" itemvalue="Python.video9" />
+        <item index="4" class="java.lang.String" itemvalue="Python.video7" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497013893903</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Video 11 complete- Template Matching">
+      <created>1497159710687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1497159710688</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,7 +616,8 @@
     <MESSAGE value="Video 8 complete- Blurring and Smoothing" />
     <MESSAGE value="Video 9 complete- Morphological Tranformation" />
     <MESSAGE value="Video 10 complete- Edge Detection and Gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Video 10 complete- Edge Detection and Gradient" />
+    <MESSAGE value="Video 11 complete- Template Matching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video 11 complete- Template Matching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -813,8 +833,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
